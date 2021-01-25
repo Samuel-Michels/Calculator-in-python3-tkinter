@@ -1,9 +1,9 @@
-from tkinter import*
+from tkinter import *
 
 me=Tk()
 me.geometry("354x460")
-me.title("CALCULATOR")
-melabel = Label(me,text="CALCULATOR",bg='White',font=("Times",30,'bold'))
+me.title("Python calculator")
+melabel = Label(me,text="CALCULATOR",bg='White',font=("Arial",30,'bold'))
 melabel.pack(side=TOP)
 me.config(background='Dark gray')
 
